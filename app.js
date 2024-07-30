@@ -11,7 +11,6 @@ const connectDB = require("./utils/db");
 const { errorMiddleware } = require("./middlewares/error-middlewares");
 
 const cors = require("cors");
-
 // cors:- middleware function that handles requests from different origins and allows them to access the resources on the server
 const crossOption = {
     origin: "http://localhost:5173",
